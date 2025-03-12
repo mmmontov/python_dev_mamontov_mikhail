@@ -8,10 +8,6 @@ env/
 .venv/
 .env/
 
-# SQLite database
-*.db
-*.sqlite3
-
 # VS Code
 .vscode/
 
