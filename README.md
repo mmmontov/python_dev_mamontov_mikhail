@@ -32,7 +32,7 @@ API было реализовано с использованием FastAPI, а 
 alembic -c "migrations/authors/alembic.ini" revision --autogenerate -m  "migration's name"
 alembic -c "migrations/authors/alembic.ini" upgrade head
 ```
-### Для базы данных `authors`:
+### Для базы данных `logging`:
 ```bash
 alembic -c "migrations/logs/alembic.ini" revision --autogenerate -m  "migration's name"
 alembic -c "migrations/logs/alembic.ini" upgrade head
